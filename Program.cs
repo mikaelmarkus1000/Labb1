@@ -1,6 +1,6 @@
 ﻿
 // Frågar anvaändaren om Input på namn och ålder på olika personer.
-Console.WriteLine("Skriv namnet på person 1");
+Console.WriteLine("Write the name of person 1");
 string name1 = Console.ReadLine();
 Console.WriteLine("Write the age of person 1");
 string age1 = Console.ReadLine();
