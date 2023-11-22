@@ -1,6 +1,5 @@
 ﻿
-// Frågar anvaändaren om Input på namn och ålder på olika personer.
-
+// Frågar användaren om Input på namn och ålder på olika personer.
 Console.WriteLine("Enter the name of person 1");
 string name1 = Console.ReadLine();
 Console.WriteLine("Enter the age of person 1");
@@ -19,10 +18,10 @@ Console.WriteLine("Enter the age of person 4");
 string age4 = Console.ReadLine();
 
 // Skriver ut åldrar
-Console.WriteLine(name1 + "is " + age1 + " years old");
-Console.WriteLine(name2 + "is " + age2 + " years old");
-Console.WriteLine(name3 + "is " + age3 + " years old");
-Console.WriteLine(name4 + "is " + age4 + " years old"); 
+Console.WriteLine(name1 + " is " + age1 + " years old");
+Console.WriteLine(name2 + " is " + age2 + " years old");
+Console.WriteLine(name3 + " is " + age3 + " years old");
+Console.WriteLine(name4 + " is " + age4 + " years old"); 
 
 // Parsear alla ålder strängar till ints så man kan göra matte med dem. 
 int intAge1 = int.Parse(age1);
