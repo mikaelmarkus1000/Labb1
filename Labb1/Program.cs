@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 // Frågar användaren om Input på namn och ålder på olika personer.
 Console.WriteLine("Enter the name of person 1");
 string name1 = Console.ReadLine();
@@ -31,5 +31,5 @@ int intAge4 = int.Parse(age4);
 
 //Gör medianNumber till en float och sedan räknar ut medianen från alla ints
 float medianNumber = (intAge1 + intAge2 + intAge3 + intAge4) / 4;
-Console.WriteLine("Median of all ages are " + medianNumber);  
-
+Console.WriteLine($"Average of all ages: {medianNumber:F2}");
+Console.ReadLine();
