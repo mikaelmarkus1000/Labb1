@@ -29,7 +29,7 @@ int intAge2 = int.Parse(age2);
 int intAge3 = int.Parse(age3);
 int intAge4 = int.Parse(age4);
 
-//Gör medianNumber till en float och sedan räknar ut medianen från alla ints
-float medianNumber = (intAge1 + intAge2 + intAge3 + intAge4) / 4;
-Console.WriteLine($"Average of all ages: {medianNumber:F2}");
+//Gör avrageNumber till en float och sedan räknar ut avrage från alla ints
+float avragenNumber = (intAge1 + intAge2 + intAge3 + intAge4) / 4;
+Console.WriteLine($"Average of all ages: {avrageNumber:F2}");
 Console.ReadLine();
